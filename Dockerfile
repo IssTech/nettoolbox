@@ -8,6 +8,7 @@ RUN apt update
 RUN apt install -y \
   bash \
   coreutils \
+  iputils-ping \
   dnsutils \
   curl
 
